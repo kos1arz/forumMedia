@@ -13,21 +13,8 @@ use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Style\SymfonyStyle;
-
-// #[AsCommand(
-//     name: 'app:websocket-server-command',
-//     description: 'Add a short description for your command',
-// )]
 class WebsocketServerCommand extends Command
 {
-    // protected function configure(): void
-    // {
-    //     $this
-    //         ->addArgument('arg1', InputArgument::OPTIONAL, 'Argument description')
-    //         ->addOption('option1', null, InputOption::VALUE_NONE, 'Option description')
-    //     ;
-    // }
-
     protected static $defaultName = "run:websocket-server";
  
     protected function execute(InputInterface $input, OutputInterface $output)
