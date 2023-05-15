@@ -13,7 +13,6 @@ class ChatController extends AbstractController
      */
     public function index()
     {
-        // public function index(): Response
         return $this->render('chat/index.html.twig', [
             'controller_name' => 'ChatController',
         ]);
